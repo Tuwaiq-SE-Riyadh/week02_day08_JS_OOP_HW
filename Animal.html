@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #p{
+           
+           display: grid;
+           grid-template-rows: 1fr; 
+            row-gap: 2rem;
+
+        }
+        .parent{
+            display: grid;
+         grid-template-columns: 1fr 1fr 1fr; 
+           row-gap: 2rem;
+            
+        }
+        img{
+            width: 20%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="p">
+        <div class="parent" id = "imgGrid">
+            <img src="" alt="" id="dog">
+            <img src="" alt="" id="cat">
+            <img src="" alt="" id="fish">
+        </div>
+        
+        <div class="parent">
+            
+            <h2 id="dogInfo" id = "info grid" ></h>
+            <h2 id="catInfo" ></h>
+            <h2 id="fishInfo" ></h>
+                    
+            
+        </div>
+
+    </div>
+   
+    
+
+    <script src="Animals.js"></script>
+</body>
+</html>
