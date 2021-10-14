@@ -14,6 +14,7 @@
 * create class name animal (this will be the parent class) it should have:
     * constructor with the animal name, age, image, and sound 
     * create method called `eats` that will return for example `"animal eats food"` where `animal` is the property `name`. 
+    * create method called `Animalsound` that will return for example `"animal sound is unknown"` where `animal` is the property `name`. 
 
 * create cat class (this will be child class) it shoud have:
     * extend the parent constructor and add to it `owner` property. 
