@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:#ddd">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul{
+            list-style: none
+        }
+        li{
+            padding:1rem;
+            font-size:18px;
+        }
+    </style>
+    <title>Animals</title>
+</head>
+
+<body>
+
+    <div class="container" style="display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    background: #3d3d3d;
+    color: #dadada;
+    padding: 1rem;
+    font-family: serif;
+    margin-top: 1rem;
+    ">
+        <header>What Animals Likes: </header>
+    </div>
+    <div class="content" id="thumbnails" style="
+    margin-top: 2rem;display: flex;
+    flex-direction: row;">
+
+        <div class="first" style="width:600px; margin-right: 20px;">
+            <div class="image">
+                <img src="cat.jpg" data-for="cat_data" id="image_cat" alt="cat image" style="width:100%; cursor:pointer; max-height: 286px;" class="ximage image-active">
+            </div>
+            <div id="cat_data" data-x="cat_data">
+               <ul class="li">
+                   <li id="cat_name"></li>
+                   <li id="cat_age"></li>
+                   <li id="cat_sound"></li>
+                   <li id="cat_eats"></li>
+                   <li id="cat_owner"></li>
+               </ul>
+            </div>
+        </div>
+
+        <div class="second" style="width:600px; margin-right: 20px;">
+            <div class="image">
+                <img src="dog.jpg" id="image_dog" data-for="dog_data" alt="dog image" style="width:100%; cursor:pointer; max-height: 286px;" class="ximage">
+            </div>
+            <div id="dog_data" data-x="dog_data">
+                <ul class="ul">
+                    <li id="dog_name"></li>
+                    <li id="dog_age"></li>
+                    <li id="dog_sound"></li>
+                    <li id="dog_eats"></li>
+                    <li id="dog_owner"></li>
+                </ul>
+             </div>
+        </div>
+
+        <div class="therd" style="width:600px">
+            <div class="image">
+                <img src="fish.jpg" id="image_fish" data-for="fish_data" alt="fish image" style="width:100%; cursor:pointer; max-height: 286px;" class="ximage">
+            </div>
+            <div id="fish_data" data-x="fish_data">
+                <ul class="ul">
+                    <li id="fish_name"></li>
+                    <li id="fish_age"></li>
+                    <li id="fish_eats"></li>
+                    <li id="fish_color"></li>
+                </ul>
+             </div>
+        </div>
+
+    </div>
+    <script src="animal.js"></script>
+</body>
+
+</html>
