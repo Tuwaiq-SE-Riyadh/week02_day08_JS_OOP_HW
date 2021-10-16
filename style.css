@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    position: static;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+    justify-content: space-around;
+}
+#animal1 img{
+    width: 400px;
+    position: relative;
+}
+
+#animal2 img {
+    width: 400px;
+    position: relative;
+}
+
+#animal3 img{
+    width: 400px;
+    position: relative;
+}
